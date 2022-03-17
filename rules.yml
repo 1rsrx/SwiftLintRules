@@ -1,33 +1,33 @@
 disabled_rules:
-  #- block_based_kvo
-  #- class_delegate_protocol
-  #- closing_brace
-  #- closure_parameter_position
-  #- colon
-  #- comma
-  #- comment_spacing
-  #- compiler_protocol_init
-  #- computed_accessors_order
-  #- control_statement
-  #- custom_rules
-  #- cyclomatic_complexity
-  #- deployment_target
-  #- discouraged_direct_init
-  #- duplicate_enum_cases
-  #- duplicate_imports
-  #- duplicated_key_in_dictionary_literal
-  #- dynamic_inline
-  #- empty_enum_arguments
-  #- empty_parameters
-  #- empty_parentheses_with_trailing_closure
-  #- file_length
-  #- for_where
-  #- force_cast
-  #- force_try
-  #- function_body_length
-  #- function_parameter_count
-  #- generic_type_name
-  #- identifier_name
+  # - block_based_kvo
+  # - class_delegate_protocol
+  # - closing_brace
+  # - closure_parameter_position
+  # - colon
+  # - comma
+  # - comment_spacing
+  # - compiler_protocol_init
+  # - computed_accessors_order
+  # - control_statement
+  # - custom_rules
+  # - cyclomatic_complexity
+  # - deployment_target
+  # - discouraged_direct_init
+  # - duplicate_enum_cases
+  # - duplicate_imports
+  # - duplicated_key_in_dictionary_literal
+  # - dynamic_inline
+  # - empty_enum_arguments
+  # - empty_parameters
+  # - empty_parentheses_with_trailing_closure
+  # - file_length
+  # - for_where
+  - force_cast
+  - force_try
+  # - function_body_length
+  # - function_parameter_count
+  # - generic_type_name
+  - identifier_name
   #- implicit_getter
   #- inclusive_language
   #- inert_defer
@@ -45,7 +45,7 @@ disabled_rules:
   #- nesting
   #- no_fallthrough_only
   #- no_space_in_method_call
-  #- notification_center_detachment
+  - notification_center_detachment
   #- nsobject_prefer_isequal
   #- opening_brace
   #- operator_whitespace
@@ -92,7 +92,7 @@ opt_in_rules:
   #- anonymous_argument_in_multiline_closure
   - anyobject_protocol
   - array_init
-  - attributes
+  # - attributes
   - balanced_xctest_lifecycle
   - closure_body_length
   - closure_end_indentation
@@ -156,7 +156,7 @@ opt_in_rules:
   #- no_grouping_extension # エクステンションでグルーピングしたいことがあるため
   #- non_private_xctest_member # TODO: 未リリースのため
   - nslocalizedstring_key
-  - nslocalizedstring_require_bundle
+  # - nslocalizedstring_require_bundle
   #- number_separator # 数字を `_` で区切りたくないため
   #- object_literal # リテラルで生成したくないこともあるため
   - operator_usage_whitespace

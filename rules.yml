@@ -131,7 +131,7 @@ opt_in_rules:
   - flatmap_over_map_reduce
   - force_unwrapping
   - function_default_parameter_at_end
-  - ibinspectable_in_extension
+  # - ibinspectable_in_extension
   - identical_operands
   - implicit_return
   #- implicitly_unwrapped_optional # VIPERで変数を `!` で定義したいため

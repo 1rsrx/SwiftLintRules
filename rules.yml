@@ -71,7 +71,7 @@ disabled_rules:
   #- trailing_comma
   #- trailing_newline
   #- trailing_semicolon
-  #- trailing_whitespace
+  - trailing_whitespace
   #- type_body_length
   #- type_name
   #- unneeded_break_in_switch
@@ -143,7 +143,7 @@ opt_in_rules:
   #- let_var_whitespace # 空白行を設けたくないこともあるため
   - literal_expression_end_indentation
   - lower_acl_than_parent
-  - missing_docs
+  # - missing_docs
   - modifier_order
   #- multiline_arguments # 引数は同じ行に2つ入れたいこともあるため
   #- multiline_arguments_brackets # 括弧で行を増やしたくないため
@@ -220,4 +220,4 @@ identifier_name:
 
 excluded:
   - Pods/
-  - AppDelegate.swift
+  - InputSourceViewer/Extensions

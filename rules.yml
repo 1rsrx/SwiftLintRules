@@ -220,4 +220,3 @@ identifier_name:
 
 excluded:
   - Pods/
-  - InputSourceViewer/Extensions
